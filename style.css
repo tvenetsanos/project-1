@@ -1,0 +1,51 @@
+.nav button {
+    background-color: #05c0ff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    border-radius: 12px;
+    float: left;
+    font-family: Haettenschweiler;
+    margin: 130px;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #05c0ff;
+}
+
+.breakingbad-header h1 {
+    margin: 0;
+    padding: 60px;
+    text-align: center;
+    background: #05c0ff;
+    color: white;
+    font-size: 60px;
+    font-family: Verdana;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #05c0ff;
+    color: white;
+    text-align: center;
+}
+
+li {
+    font-family: 'Arial Narrow Bold'
+}
+
+.music {
+   display: none;
+}
+
+.breakingbad-background-img {
+    background-image: url(https://i.pinimg.com/originals/91/f9/fb/91f9fb03fcd56a9f04f7a7ceff3b196b.jpg);
+    background-size: cover;
+    height: 500px;
+}

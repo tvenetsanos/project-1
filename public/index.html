@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Breaking Bad Information</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+  
+    <script defer src="src/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <section class="breakingbad-background-img">
+      <div class="breakingbad-header">
+        <h1>Breaking Bad Information</h1>
+      </div>
+
+      <div class="nav">
+          <button id="character-all">List all Characters</button>
+          <div class="divider"></div>
+          <button id="search-character">Search By Character</button>
+          <div class="divider"></div>
+          <button id="generate-quote">Quote Generator</button>
+      </div>
+    </section>
+
+    <div id="quote-list"></div>
+
+    <div id="search-div">
+      <form hidden id="search-form-character">
+        <input name="search-character" placeholder="Search Character">
+        <input type="submit" value="Search">
+      </form>
+      <!-- <form hidden id="search-form-quote">
+        <input name="search-quote" placeholder="Search">
+        <input type="submit" value="Search">
+      </form> -->
+    </div>
+
+    <iframe class="music" width="500" height="300" src="https://www.youtube.com/embed/3U6PSWyv5sc?autoplay=1&unmute=1" frameborder="0" allowfullscreen></iframe>
+
+    <div id="character-list" class="ui grid">
+    </div>
+
+    <embed name="BreakingBad" src=""\Downloads\Breaking Bad Full Intro Title Sequence.mp3"" loop="true" hidden="true" autostart="true">
+
+    <footer class="branding">
+      <small>&copy; 2021 <strong>Breaking Bad Information</strong></small>
+    </footer>
+
+  </body>
+
+</html>
